@@ -1,4 +1,4 @@
-gradio
-tensorflow==2.19.0
+gradio==5.38.2
+tensorflow-cpu
 numpy
 Pillow
