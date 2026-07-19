@@ -197,7 +197,11 @@ It should NOT replace diagnosis by a qualified medical professional.
 
 )
 
+import os
+
+port = int(os.environ.get("PORT", 10000))
+
 demo.launch(
     server_name="0.0.0.0",
-    server_port=7860
+    server_port=port
 )
