@@ -1,4 +1,6 @@
 gradio==5.38.2
-tensorflow-cpu
-numpy
-Pillow
+tensorflow==2.19.0
+numpy==1.26.4
+Pillow==11.3.0
+h5py
+protobuf<5
